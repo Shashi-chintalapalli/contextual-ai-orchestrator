@@ -13,7 +13,7 @@ def expand_slide(section_title, summary, mode="short"):
     return expand_outline([section_title], summary, mode=mode)[0]
 
 def create_slide(prs, title, content):
-    slide = prs.slides.add_slide(prs.slide_layouts[5])  # Blank layout
+    slide = prs.slides.add_slide(prs.slide_layouts[5]) 
 
     title_box = slide.shapes.add_textbox(Pt(50), Pt(30), Pt(860), Pt(80))
     title_frame = title_box.text_frame
