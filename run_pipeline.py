@@ -29,7 +29,8 @@ def run_pipeline(file_path: str, output_filename: str = "final_output.pptx", mod
     slide_count = 7 if mode == "short" else 12
 
     # Use preset fallback if short mode
-    outline = ["PRESET"] if mode == "short" else generate_outline(presentation_type, summary, slide_count=slide_count)
+    outline = generate_outline(presentation_type, summary, slide_count=slide_count)
+
 
     print("📈 Expanding outline...")
     expanded_slides = expand_outline(outline, summary, mode=mode)

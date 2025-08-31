@@ -1,7 +1,6 @@
 import os
 import requests
 
-# Load GROQ API key from environment
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
@@ -22,7 +21,7 @@ Respond with a concise paragraph or bullet points.
     }
 
     payload = {
-        "model": "mixtral-8x7b-32768",  # Or your preferred model
+        "model": "mixtral-8x7b-32768",
         "messages": [
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
