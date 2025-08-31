@@ -1,0 +1,51 @@
+# 🧠 Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# 📦 Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# 🔑 Secrets and environment variables
+.env
+*.env
+
+# 📄 Document uploads and outputs
+uploads/
+output/
+*.pptx
+
+# 🧪 Test and coverage
+htmlcov/
+.coverage
+.cache/
+.pytest_cache/
+
+# 🧰 IDE and editor configs
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+# 📚 Jupyter and notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# 🚀 Deployment and build
+build/
+dist/
+*.egg-info/
+
+# 🗂️ OS-specific
+.DS_Store
+Thumbs.db
+
+# 🧪 Logs and temp
+*.log
+*.tmp
