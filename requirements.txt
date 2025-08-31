@@ -1,42 +1,43 @@
-sentence-transformers==4.1.
+sentence-transformers
+
 # Web framework
-fastapi==0.115.13
-uvicorn==0.34.3
+fastapi
+uvicorn
 
 # PDF parsing
-pypdf==6.0.0
+pypdf
 
 # PPTX generation
-python-pptx==1.0.2
+python-pptx
 
 # LangChain ecosystem
-langchain==0.3.27
-langchain-community==0.2.19
-langchain-core==0.3.75
-langchain-text-splitters==0.3.10
-langsmith==0.4.21
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langsmith
 
 # LLM integration
-groq==0.31.0
+groq
 
 # Vector DB
-chromadb==1.0.13
+chromadb
 
 # Data handling
-pandas==2.2.3
-numpy==1.26.4
+pandas
+numpy
 
 # API key management
-python-dotenv==1.1.0
+python-dotenv
 
 # File upload support
-python-multipart==0.0.20
+python-multipart
 
 # Logging & resilience
-rich==14.0.0
-tenacity==8.5.0
-python-json-logger==2.0.7
+rich
+tenacity
+python-json-logger
 
 # Optional performance boost
-uvloop==0.21.0
-orjson==3.10.18
+uvloop
+orjson
