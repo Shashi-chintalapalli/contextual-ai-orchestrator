@@ -1,19 +1,42 @@
-fastapi
-uvicorn[standard]
-python-multipart
-aiofiles
-PyMuPDF
-python-docx
-chardet
-python-pptx
-groq
-langchain
-langchain-community
-langchain-core
-python-dotenv
-loguru
-pydantic
-httpx
-python-magic
-jinja2
-pypdf
+sentence-transformers==4.1.
+# Web framework
+fastapi==0.115.13
+uvicorn==0.34.3
+
+# PDF parsing
+pypdf==6.0.0
+
+# PPTX generation
+python-pptx==1.0.2
+
+# LangChain ecosystem
+langchain==0.3.27
+langchain-community==0.2.19
+langchain-core==0.3.75
+langchain-text-splitters==0.3.10
+langsmith==0.4.21
+
+# LLM integration
+groq==0.31.0
+
+# Vector DB
+chromadb==1.0.13
+
+# Data handling
+pandas==2.2.3
+numpy==1.26.4
+
+# API key management
+python-dotenv==1.1.0
+
+# File upload support
+python-multipart==0.0.20
+
+# Logging & resilience
+rich==14.0.0
+tenacity==8.5.0
+python-json-logger==2.0.7
+
+# Optional performance boost
+uvloop==0.21.0
+orjson==3.10.18
